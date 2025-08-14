@@ -15,7 +15,7 @@ let pop1=document.getElementById("pop-up")
 let pop2=document.getElementById("pop-up-2")
 function temp() {
     
-    fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${input.value}&limit=3&appid=${Key}&units=metric`)
+    fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${input.value}&limit=3&appid=${Key}&units=metric`)
         .then((val) => {
             console.log(val)
             if(input.value.trim()==""){
