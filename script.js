@@ -13,8 +13,8 @@ let bg=document.getElementById("bg")
 let text=document.getElementById("text")
 let pop1=document.getElementById("pop-up")
 let pop2=document.getElementById("pop-up-2")
+
 function temp() {
-    
     fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${input.value}&limit=3&appid=${Key}&units=metric`)
         .then((val) => {
             console.log(val)
