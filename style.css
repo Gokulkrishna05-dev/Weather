@@ -16,6 +16,13 @@ body{
     padding: 30px;
     position: relative;
 }
+.head{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: transparent;
+    background: linear-gradient(to bottom,skyblue,violet);
+    background-clip: text;
+}
 .weather {
     width: 40vw;
     position: relative;
