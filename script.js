@@ -64,7 +64,7 @@ function result() {
             return val.json()
         })
         .catch((err) => {
-            console.error(err)
+            console.log(err)
         })
         .then((val) => {
             console.log(val)
